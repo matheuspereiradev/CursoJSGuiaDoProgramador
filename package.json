@@ -1,0 +1,17 @@
+{
+  "name": "curso_js",
+  "version": "1.0.0",
+  "description": "curso",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "matheus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
