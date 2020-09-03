@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/',(req,res)=>{
-    res.send('Aba principal')
+    res.sendFile(__dirname+"/html/index.html")
 })
 
 app.get('/sobre',(req,res)=>{
