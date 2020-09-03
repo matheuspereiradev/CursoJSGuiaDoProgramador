@@ -37,3 +37,11 @@ const User = con.define('usuarios',{
         type:Sequelize.STRING
     }
 })
+
+
+User.create({
+    nome:'Matheus Lima',
+    sexo:'M',
+    dtNasc:'1997-12-15',
+    telefone:'88992424740'
+})
